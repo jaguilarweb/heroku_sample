@@ -1,4 +1,5 @@
-from sqlalchemy import Column, String, create_engine
+import os
+from sqlalchemy import Column, Integer, String, create_engine
 from flask_sqlalchemy import SQLAlchemy
 import json
 
@@ -16,6 +17,7 @@ def setup_db(app, database_path=database_path):
     db.app = app
     db.init_app(app)
     db.create_all()
+
 
 
 '''
