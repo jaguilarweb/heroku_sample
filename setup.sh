@@ -1,1 +1,1 @@
-set export DATABASE_URL="postgresql://test_user:test@localhost:5432/heroku_db"
+export DATABASE_URL="postgresql://test_user:test@localhost:5432/heroku_db"
